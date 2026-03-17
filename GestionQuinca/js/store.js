@@ -67,7 +67,8 @@ const Store = {
       { id: 8, name: 'Gros-œuvre & Matériaux', emoji: '🧱' },
       { id: 9, name: 'Électricité & Éclairage', emoji: '💡' },
       { id: 10, name: 'Quincaillerie de meuble', emoji: '🚪' },
-      { id: 11, name: 'EPI & Sécurité au travail', emoji: '🦺' }
+      { id: 11, name: 'EPI & Sécurité au travail', emoji: '🦺' },
+      { id: 12, name: 'Bois & Menuiserie', emoji: '🪵' }
     ]);
 
     // Products
