@@ -48,7 +48,7 @@ const Store = {
 
   // ── Demo Data Seed ──
   seed() {
-    if (localStorage.getItem('_seeded_reset')) return;
+    if (localStorage.getItem('_seeded_v3')) return;
 
     // Users : We only keep the main admin
     this.save('users', [
@@ -97,7 +97,7 @@ const Store = {
       { id: 1, date: new Date().toISOString(), user: 'admin', action: 'Système réinitialisé à zéro', type: 'warning' }
     ]);
 
-    localStorage.setItem('_seeded_reset', '1');
+    localStorage.setItem('_seeded_v3', '1');
   },
 
   // ── Helpers ──
